@@ -5,6 +5,20 @@ The cache is indexed by Rank and by domain name.
 
 NOTE: This class will download and index the Alexa.com top 1M rank once it is loaded. This means that it can add a few seconds delay on the software load time.
 
+## Getting Started
+
+To run this project you will need download and import the jar file inside the dist folder.
+Samples:
+```java
+AlexaRank.getInstance().getRank("mywebsite.com"));
+```
+**Get the Alexa Rank by domain or URL**
+
+```java
+AlexaRank.getInstance().getDomain(5));
+```
+**Get the Domain by rank**
+
 ## Bugs and Issues 
 
 Have a bug or an issue with this project? [Open a new issue](https://github.com/renangbarreto/alexa-rank-cache/issues) here on GitHub or send us an email.
