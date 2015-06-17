@@ -7,7 +7,7 @@ NOTE: This class will download and index the Alexa.com top 1M rank once it is lo
 
 ## Getting Started
 
-To run this project you will need download and import the jar file inside the dist folder.
+To run this project you will need download and import the jar file inside the 'versions' folder.
 Samples:
 ```java
 AlexaRank.getInstance().getRank("mywebsite.com"));
