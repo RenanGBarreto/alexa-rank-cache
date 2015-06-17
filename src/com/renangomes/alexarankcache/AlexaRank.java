@@ -1,7 +1,7 @@
 /**
  * ALEXA RANK CACHE SYSTEM
  *
- * We use the Alexa Rank Top 1M file in order to build a cache in memory.
+ * We use the Alexa.com Rank Top 1M file in order to build a cache in memory.
  *
  * @author Renan Gomes Barreto
  * @version 1.0
@@ -29,7 +29,7 @@ import java.util.zip.ZipInputStream;
  * AlexaRank class that will generate (on class load) a rank with top 1M URLs on
  * Alexa.
  *
- * NOTE: This class will download and index the alexa top 1M rank once it is
+ * NOTE: This class will download and index the Alexa.com top 1M rank once it is
  * loaded. This means that it can add a few seconds delay on the software load
  * time.
  *
@@ -40,7 +40,7 @@ import java.util.zip.ZipInputStream;
 public class AlexaRank {
 
     /**
-     * The singleton instace for the Alexa Rank Obj
+     * The singleton instance for the Alexa Rank Object
      */
     private static final AlexaRank instance = new AlexaRank();
 
